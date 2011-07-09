@@ -1,0 +1,26 @@
+A handy form panel to create a CSS text style.
+
+!! ATTENTION !!
+This extension requires the Ext.ux.ColorPicker extension which you can find here : https://github.com/osnoek/Ext.ux.ColorPicker
+
+
+Simply drop the files into the root of an ExtJs 4.x install folder.
+
+An example page can be found in: INSTALL_DIR/examples/stylepicker.html
+
+usage : 
+To create the stylepicker panel:
+var stylepicker = Ext.widget('ux.stylepicker', {
+	renderTo : Ext.getBody(),
+		styleConfig : {
+		'font-size' : '20px'	
+	}
+});
+
+To create a stylepickerfield : 
+var stylepicker = Ext.widget('ux.stylepickerfield', {
+	renderTo : Ext.getBody(),
+	styleConfig : {
+		'font-size' : '20px'	
+	}
+});
