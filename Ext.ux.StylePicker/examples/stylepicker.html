@@ -38,14 +38,14 @@
 	Ext.onReady(function() {
 		Ext.tip.QuickTipManager.init();
 
-		var picker = Ext.widget('stylepicker', {
+		var picker = Ext.widget('ux.stylepicker', {
 			renderTo : Ext.getBody(),
 			styleConfig : {
 				'font-size' : '24px'
 			}
 		});
 
-		var field = Ext.widget('stylepickerfield', {
+		var field = Ext.widget('ux.stylepickerfield', {
 			renderTo : Ext.getBody(),
 			styleConfig : {}
 		});

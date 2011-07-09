@@ -214,7 +214,7 @@ Ext.define('Ext.ux.stylepicker.StylePicker', {
 					flex : 1,
 					layout : 'anchor',
 					items : [ {
-						xtype : 'colorpickerfield',
+						xtype : 'ux.colorpickerfield',
 						itemId : 'clrColor',
 						fieldLabel : 'Text color',
 						labelWidth : 60,
